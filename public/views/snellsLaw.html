@@ -1,0 +1,24 @@
+<h1>Snell's Law</h1>
+
+<canvas id="world" width="1000" height="600" ng-click="addParticle($event)">
+	This browser can not run this game (canvas support missing).
+</canvas>
+
+<div id="buttonContainer">
+	<input id="resetButton" class="btn btn-primary" type="button"
+        ng-click="resetCanvas($event)" value="Reset" />
+	<!--
+	<input id="wallButton" class="btn btn-success" type="button" value="Walls" />
+	-->
+	<input id="trailsButton" class="btn btn-info" type="button"
+        ng-click="toggleTrails($event)" value="{{trailText}}" />
+</div>
+<div>
+	<h5>Click to add new balls</h5>
+</div>
+<br />
+<div>
+    <slider slider-id="slider" ng-model="sliderValue" min="sliderOptions.min" step="sliderOptions.step"
+        max="sliderOptions.max" value="sliderOptions.value">WRONG</slider>
+</div>
+<p>Change Slider to change the value of index of refraction.</p>

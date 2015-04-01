@@ -1,0 +1,18 @@
+{
+  "name": "loft",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+	"bower": "*",
+	"connect": "*",
+	"express": "~3.4.8",
+	"mongodb": ">=1.3.19",
+	"mongoose": "~3.6.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Pena",
+  "license": "MIT"
+}
